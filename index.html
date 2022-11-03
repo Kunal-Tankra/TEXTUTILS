@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html, css, js... 4</title>
+    <link rel="icon" href="favicon-16x16.png">
+</head>
+<!-- dark class for darkmode -->
+<body >
+    
+    <div class=" notification">
+        <p class="pInNotification"><strong>Success</strong> : <span class="buttonType"></span></p>
+        <strong class="x">&#10006</strong>
+    </div>
+    
+    <!-- navigation bar.. -->
+    <div class="navigationBar">
+        <span class="company">TEXTUTILS</span>
+        <ul class="navigationButtons">
+            <li class="home">Home</li>
+            <li class="about"> About</li>
+        </ul>
+        <div class="darkModeOption">
+            <div class="darkModeButton"><div class="sliderCircle"></div></div>
+            <p>Enable Dark Mode</p>
+        </div>
+    </div>
+    
+    <!-- container of pages... -->
+    <div class="containerOfPages">
+        <!-- home page is here -->
+        <div class="homePage">
+            <h1 class="headingInHomePage">Enter Your Text Here to analize</h1>
+            <textarea placeholder="Enter Your Text Here....." class="textArea" ></textarea>
+
+            <div class="containerButtonsChange">
+                <div class="changingButton uppercase">Convert To Uppercase</div>
+                <div class="changingButton lowercase">Convert To Lowercase</div>
+                <div class="changingButton capitalcase">Convert To Capitalcase</div>
+                <div class="changingButton clearText">Clear Text</div>
+                <div class="changingButton copyText">Copy Text</div>
+            </div>
+
+            <h1 class="headingInHomePage">Your Text Summary</h1>
+            <p class="counting"><span class="wordCount">0</span> words and <span class="charCountWithSpace">0</span> characters (including spaces) and <span class="charCountWithoutSpace">0</span> characters (without spaces) and <span class="sentenceCount">0</span> Sentenses</p>
+            <p><span class="readingTime">0</span> Minutes Reading Time</p>
+            <p><span class="speakingTime">0</span> Minutes Speaking Time</p>
+
+            <h1 class="headingInHomePage">Preview</h1>
+            <p class="textAreaPreview">Enter something in the textbox above to preview it</p>
+        </div>
+
+
+        <!-- about page is here -->
+        <div class="aboutPage" style="display:none">
+            <h1>About us</h1>
+            <h2>Heading 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium soluta alias nostrum fuga eum! Nesciunt, commodi. Dignissimos, doloremque odit enim aut architecto provident quas sint, aspernatur numquam, perferendis placeat!</p>
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium soluta alias nostrum fuga eum! Nesciunt, commodi. Dignissimos, doloremque odit enim aut architecto provident quas sint, aspernatur numquam, perferendis placeat!</p>
+            <h2>Heading 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium soluta alias nostrum fuga eum! Nesciunt, commodi. Dignissimos, doloremque odit enim aut architecto provident quas sint, aspernatur numquam, perferendis placeat!</p>
+            <h2>Heading 4</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni laudantium soluta alias nostrum fuga eum! Nesciunt, commodi. Dignissimos, doloremque odit enim aut architecto provident quas sint, aspernatur numquam, perferendis placeat!</p>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="script.js"></script>
+</html> 
